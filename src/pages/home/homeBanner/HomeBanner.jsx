@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import useFetch from '../../../hooks/useFectch'
 import { useSelector } from 'react-redux';
 import Img from '../../../components/lazyLoadImg/Img'
-import ContentWrapper from '../../../components/contentWrapper/ContentWrapper';
+import ContentWrapper from '../../../components/contentWrapper/ContentWrapper.jsx';
 
 
 const HomeBanner = () => {
