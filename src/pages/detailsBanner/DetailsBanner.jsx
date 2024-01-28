@@ -5,7 +5,7 @@ import dayjs from "dayjs";
 
 import "./style.scss";
 
-import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
+import ContentWrapper from "../../components/contentWrapper/ContentWrapper.jsx";
 import useFetch from "../../hooks/useFectch.jsx";
 import Genres from "../../components/genres/Genres.jsx";
 import CircleRating from "../../components/circleRating/CircleRating.jsx";
