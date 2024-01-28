@@ -72,6 +72,7 @@ const Explore = () => {
     }, [mediaType]);
 
     const onChange = (selectedItems, action) => {
+    
         if (action.name === "sortby") {
             setSortby(selectedItems);
             if (action.action !== "clear") {
