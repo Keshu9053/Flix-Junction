@@ -1,6 +1,5 @@
 import React from "react";
-
-import "./style.scss";
+import './syle.scss';  // Importing the external stylesheet
 
 const ContentWrapper = ({ children }) => {
     return <div className="contentWrapper">{children}</div>;
